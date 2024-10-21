@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    max-width: 100%;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+mark{
+    color: green;
+}
+
+.num{
+    font-size: 150pt;
+}
+
+.btn{
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+#btn2{
+    padding: 20px 40px;
+    border-radius: 5px;
+}
